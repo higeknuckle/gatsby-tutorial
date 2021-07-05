@@ -4,7 +4,6 @@ module.exports = {
     title: "Gatsby Tutorial",
   },
   plugins: [
-    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -13,5 +12,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-transformer-remark",
   ],
 };
